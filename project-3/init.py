@@ -3,6 +3,7 @@
 import shutil
 import os
 import sys
+from math import *
 
 print('### project-3 ###')
 DEMO_MODE = False
@@ -42,7 +43,8 @@ def copyfiles():
             full_file_name = os.path.join(root, file)
             print(full_file_name)
             if (os.path.isfile(full_file_name)):
-                os.makedirs("tmp/"+os.path.basename(root))
+                if (not os.path.isdir("tmp/"+os.path.basename(root))):
+                    os.makedirs("tmp/"+os.path.basename(root))
                 shutil.copy(full_file_name, "tmp/"+os.path.basename(root))
 
 if (DEMO_MODE):
@@ -87,7 +89,6 @@ def getFilesPath(theme):
       if (theme in path and "tmp" in path):
           for file in files:
             full_file_name = os.path.join(root, file)
-            print(full_file_name)
             tmp.append(full_file_name)
     return tmp
 
@@ -98,19 +99,48 @@ def ngrams(input, n):
     output.append(input[i:i+n])
   return output
 
+def replace_all(text):
+    sanitize = ['\n', ',', '(', ')', '-']
+    for i in sanitize:
+        text = text.replace(i, '')
+    return text
+
+
+ngramList = []
 for index, elt in enumerate(thematicsList):
-    print('  ' + str(index) + '| analyse ' + elt)
+    print('#' + str(index) + '| analyse ' + elt)
     files = getFilesPath(elt)
     grams = {}
     for f in files:
         with open(f, 'r') as myfile:
-            data=myfile.read().replace('\n', '')
+            data=myfile.read().strip()
+            data = replace_all(data)
+            data = data.lower()
             ngs = ngrams(data, 3)
             ngs = [' '.join(x) for x in ngs]
             for g in ngs:
                grams.setdefault(g, 0)
                grams[g] += 1
-            print(grams)
-            sys.exit()
-            
+    ngramList.append(grams)
+
+print()
+print("--- report ---")
+print()
+
+def getReport(dico):
+    tmp = {}
+    for key, value in dico.items():
+        tmp.setdefault(value, 0)
+        tmp[value] += 1
+    print(tmp)
+
+for index, elt in enumerate(thematicsList):
+    getReport(ngramList[index])
+    print('#' + str(index) + '| have ' + str(len(ngramList[index])))
+
+def jaccard_similarity(set1, set2):
+    intersection_cardinality = len(set.intersection(*[set1, set2]))
+    union_cardinality = len(set.union(*[set1, set2]))
+    print(intersection_cardinality/float(union_cardinality))
+    
 

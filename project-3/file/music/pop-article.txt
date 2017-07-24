@@ -1,0 +1,206 @@
+Seduced by ‘perfect’ pitch: how Auto-Tune conquered pop music
+By Lessley Anderson on February 27, 2013 12:12 pm
+295
+COMMENTS
+
+In January of 2010, Kesha Sebert, known as ‘Ke$ha’ debuted at number one on Billboard with her album, Animal. Her style is electro pop-y dance music: she alternates between rapping and singing, the choruses of her songs are typically melodic party hooks that bore deep into your brain: “Your love, your love, your love, is my drug!” And at times, her voice is so heavily processed that it sounds like a cross between a girl and a synthesizer. Much of her sound is due to the pitch correction software, Auto-Tune.
+
+Sebert, whose label did not respond to a request for an interview, has built a persona as a badass wastoid, who told Rolling Stone that all male visitors to her tour bus had to submit to being photographed with their pants down. Even the bus drivers.
+
+Yet this past November on the Today Show, the 25-year old Sebert looked vulnerable, standing awkwardly in her skimpy purple, gold, and green unitard. She was there to promote her new album, Warrior, which was supposed to reveal the authentic her.
+
+Kesha
+“Was it really important to let your voice to be heard?” asked the host, Savannah Guthrie.
+
+“Absolutely,” Sebert said, gripping the mic nervously in her fingerless black gloves.
+
+“People think they’ve heard the Auto-Tune, they’ve heard the dance hits, but you really have a great voice, too,” said Guthrie, helpfully.
+
+“No, I got, like, bummed out when I heard that,” said Sebert, sadly. “Because I really can sing. It’s one of the few things I can do.”
+
+Warrior starts with a shredding electrical static noise, then comes her voice, sounding like what the Guardian called “a robo squawk devoid of all emotion.”
+
+“That’s pitch correction software for sure,” wrote Drew Waters, Head of Studio Operations at Capitol Records, in an email. “She may be able to sing, but she or the producer chose to put her voice through Auto-Tune or a similar plug-in as an aesthetic choice.”
+
+So much for showing the world the authentic Ke$ha.
+
+Since rising to fame as the weird techno-warble effect in the chorus of Cher’s 1998 song, “Believe,” Auto-Tune has become bitchy shorthand for saying somebody can’t sing. But the diss isn’t fair, because everybody’s using it.
+
+For every T-Pain — the R&B artist who uses Auto-Tune as an over-the-top aesthetic choice — there are 100 artists who are Auto-Tuned in subtler ways. Fix a little backing harmony here, bump a flat note up to diva-worthy heights there: smooth everything over so that it’s perfect. You can even use Auto-Tune live, so an artist can sing totally out of tune in concert and be corrected before their flaws ever reach the ears of an audience. (On season 7 of the UK X-Factor, it was used so excessively on contestants’ auditions that viewers got wise, and protested.)
+
+Indeed, finding out that all the singers we listen to have been Auto-Tuned does feel like someone’s messing with us. As humans, we crave connection, not perfection. But we’re not the ones pulling the levers. What happens when an entire industry decides it’s safer to bet on the robot? Will we start to hate the sound of our own voices?
+
+They’re all zombies!
+Cher
+AUTO-TUNE HAS NOW BECOME BITCHY SHORTHAND FOR SAYING SOMEBODY CAN’T SING
+Cher’s late ‘90s comeback and makeover as a gay icon can entirely be attributed to Auto-Tune, though the song's producers claimed for years that it was a Digitech Talker vocoder pedal effect. In 1998, she released the single, “Believe,” which featured a strange, robotic vocal effect on the chorus that felt fresh. It was created with Auto-Tune.
+
+The technology, which debuted in 1997 as a plug-in for Pro Tools (the industry standard recording software), works like this: you select the key the song is in, and then Auto-Tune analyzes the singer’s vocal line, moving “wrong” notes up or down to what it guesses is the intended pitch. You can control the time it takes for the program to move the pitch: slower is more natural, faster makes the jump sudden and inhuman sounding. Cher’s producers chose the fastest possible setting, the so-called “zero” setting, for maximum pop.
+
+“Believe” was a huge hit, but among music nerds, it was polarizing. Indie rock producer Steve Albini, who’s recorded bands like the Pixies and Nirvana, has said he thought the song was mind-numbingly awful, and was aghast to see people he respected seduced by Auto-Tune.
+
+“One by one, I could see that my friends had gone zombie. This horrible piece of music with this ugly soon-to-be cliché was now being discussed as something that was awesome. It made my heart fall,” he told the Onion AV Club in November of 2012.
+
+The Auto-Tune effect spread like a slow burn through the industry, especially within the R&B and dance music communities. T-Pain began Cher-style Auto-Tuning all his vocals, and a decade later, he’s still doing it.
+
+“It’s makin’ me money, so I ain’t about to stop!” T-Pain told DJ Skee in 2008.
+
+“IT’S MAKIN’ ME MONEY, SO I AIN’T ABOUT TO STOP!”
+Kanye West did an album with it. Lady Gaga uses it. Madonna, too. Maroon 5. Even the artistically high-minded Bon Iver has dabbled. A YouTube series where TV news clips were Auto-Tuned, “Auto-Tune the News”, went viral. The glitchy Auto-Tune mode seems destined to be remembered as the “sound” of the 2000s, the way the gated snare (that dense, big, reverb-y drum sound on, say, Phil Collins songs) is now remembered as the sound of the ‘80s.
+
+Auto-Tune certainly isn’t the only robot voice effect to have wormed its way into pop music. In the ‘70s and early ‘80s, voice synthesizer effects units became popular with a lot of bands. Most famous is the Vocoder, originally invented in the 1930s to send encoded Allied messages during WWII. Proto-techno groups like New Order and Kraftwerk (ie: “Computer World,”) embraced it. So did American early funk and hip hop groups like the Jonzun Crew.
+
+‘70s rockers gravitated towards another effect, the talk box. Peter Frampton (listen for it on “Do you Feel Like We Do”) and Joe Walsh (used it on “Rocky Mountain Way”) liked its similar-to-a-vocoder sound. The talk box was easier to rig up than the Vocoder — you operate it via a rubber mouth tube when applying it to vocals. But it produces massive amounts of slobber. In Dave Tompkins’ book, How to Wreck a Nice Beach, about the history of synthesized speech machines in the music industry, he writes that Frampton’s roadies sanitized his talk box in Remy Martin Cognac between gigs.
+
+The use of showy effects usually have a backlash. And in the case of the Auto-Tune warble, Jay-Z struck back with the 2009 single, D.O.A., or “Death of Auto-Tune.”
+
+I know we facing a recession 
+But the music y'all making going make it the great depression 
+All y'all lack aggression 
+Put your skirt back down, grow a set man 
+Nigga this shit violent 
+This is death of Auto-Tune, moment of silence
+
+That same year, the band Death Cab for Cutie showed up at the Grammys wearing blue ribbons to raise awareness, they told MTV, about “rampant Auto-Tune abuse.”
+
+The protests came too late, though. The lid to Pandora’s box had been lifted. Music producers everywhere were installing the software.
+
+
+
+VOCODER
+
+TALK BOX
+
+AUTO-TUNE
+
+Phil-collins
+Everybody uses it
+“I’ll be in a studio and hear a singer down the hall and she’s clearly out of tune, and she’ll do one take,” says Drew Waters of Capitol Records. That’s all she needs. Because they can fix it later, in Auto-Tune.
+
+There is much speculation online about who does — or doesn’t — use Auto-Tune. Taylor Swift is a key target, as her terribly off-key duet with Stevie Nicks at the 2010 Grammys suggests she’s tone deaf. (Label reps said at the time something was wrong with her earpiece.) But such speculation is naïve, say the producers I talked to. “Everybody uses it,” says Filip Nikolic, singer in the LA-based band, Poolside, and a freelance music producer and studio engineer. “It saves a ton of time.”
+
+Tpain
+On one end of the spectrum are people who dial up Auto-Tune to the max, a la Cher / T-Pain. On the other end are people who use it occasionally and sparingly. You can use Auto-Tune not only to pitch correct vocals, but other instruments too, and light users will tweak a note here and there if a guitar is, say, rubbing up against a vocal in a weird way.
+
+“I’ll massage a note every once in a while, and often I won’t even tell the artist,” says Eric Drew Feldman, a San Francisco-based musician and producer who’s worked with The Polyphonic Spree and Frank Black.
+
+But between those two extremes, you have the synthetic middle, where Auto-Tune is used to correct nearly every note, as one integral brick in a thick wall of digitally processed sound. From Justin Bieber to One Direction, from The Weeknd to Chris Brown, most pop music produced today has a slick, synth-y tone that’s partly a result of pitch correction.
+
+However, good luck getting anybody to cop to it. Big producers like Max Martin and Dr. Luke, responsible for mega hits from artists like Ke$ha, Pink, and Kelly Clarkson, either turned me down or didn’t respond to interview requests. And you can’t really blame them.
+
+“Do you want to talk about that effect you probably use that people equate with your client being talentless?”
+
+Um, no thanks.
+
+In 2009, an online petition went around protesting the overuse of Auto-Tune on the show Glee. Those producers turned down an interview, too.
+
+The artists and producers who would talk were conflicted. One indie band, The Stepkids, had long eschewed Auto-Tune and most other modern recording technologies to make what they call “experimental soul music.” But the band recently did an about face, and Auto-Tuned their vocal harmonies on their forthcoming single, “Fading Star.”
+
+Were they using Auto-Tune ironically or seriously? Co-frontman Jeff Gitelman said,
+
+“Both.”
+
+“For a long time we fought it, and we still are to a certain degree,” said Gitelman. “But attention spans are a certain way, and that’s how it is…we just wanted it to have a clean, modern sound.”
+
+Hanging above the toilet in San Francisco’s Different Fur recording studios — where artists like the Alabama Shakes and Bobby Brown have recorded — is a clipping from Tape Op magazine that reads: “Don’t admit to Auto-Tune use or editing of drums, unless asked directly. Then admit to half as much as you really did.”
+
+Different Fur’s producer / engineer / owner, Patrick Brown, who hung the clipping there, has recorded acts like the Morning Benders, and says many indie rock bands “come in, and first thing they say is, ‘We don’t tune anything,’” he says.
+
+Brown is up for ditching Auto-Tune if the client really wants to, but he says most of the time, they don’t really want to. “Let’s face it, most bands are not genius.” He’ll feel them out by saying, with a wink-wink-nod-nod: “Man, that note’s really out of tune, but that was a great take.” And a lot of times they’ll tell him, go ahead, Auto-Tune it.
+
+Glee
+Nelly
+Marc Griffin is in the RCA-signed band 2AM Club, which has both an emcee and a singer (Griffin’s the singer.) He first got Auto-Tuned in 2008, when he recorded a demo with producer Jerry Harrison, the former keyboardist and guitarist for the Talking Heads.
+
+“I sang the lead, then we were in the control room with the engineer, and he put ‘tune on it. Just a little. And I had perfect pitch vocals. It sounded amazing. Then we started stacking vocals on top of it, and that sounded amazing,” says Griffin.
+
+Now, Griffin sometimes records with Auto-Tune on in real time, rather than having it applied to his vocals in post-production, a trend producers say is not unusual. This means that the artist hears the tuned version of his or her voice coming out of the monitors while singing.
+
+“Every time you sing a note that’s not perfect, you can hear the frequencies battle with each other,” Griffin says, which sounds kind of awful, but he insists it “helps you hear what it will really sound like.”
+
+Singer / songwriter Neko Case kvetched about these developments in an interview with online music magazine, Pitchfork. “I'm not a perfect note hitter either but I'm not going to cover it up with auto tune. Everybody uses it, too. I once asked a studio guy in Toronto, ‘How many people don't use Auto-Tune?’ and he said, ‘You and Nelly Furtado are the only two people who've never used it in here.’ Even though I'm not into Nelly Furtado, it kind of made me respect her. It's cool that she has some integrity.”
+
+That was 2006. This past September, Nelly Furtado released the album, The Spirit Indestructible. Its lead single is doused in massive levels of Auto-Tune.
+
+Dr. Evil
+Somebody once wrote on an online message board that the guy who created Auto-Tune must “hate music.” That could not be further from the truth. Its creator, Dr. Andy Hildebrand, AKA Dr. Andy, is a classically trained flautist who spent most of his youth playing professionally, in orchestras. Despite the fact that the 66-year old only recently lopped off a long, gray ponytail, he’s no hippie. He never listened to rock music of his generation.
+
+“I was too busy practicing,” he says. “It warped me.”
+
+The only post-Debussy artist he’s ever gotten into is Patsy Cline.
+
+Hildebrand’s company — Antares — nestled in an anonymous looking office park in the mountains between Silicon Valley and the Pacific Coast, has only ten employees. Hildebrand invents all the products (Antares recently came out with Auto-Tune for Guitar). His wife is the CFO.
+
+Hildebrand started his career as a geophysicist, programming digital signal processing software which helped oil companies find drilling spots. After going back to school for music composition at age 40, he discovered he could use those same algorithms for the seamless looping of digital music samples, and later for pitch correction. Auto-Tune, and Antares, were born.
+
+
+Watch Diamond Factory, Anthrax Investigation, Auto-Tune, Luis... on PBS. See more from NOVA scienceNOW.
+
+Auto-Tune isn’t the only pitch correction software, of course. Its closest competitor, Melodyne, is reputed to be more “natural” sounding. But Auto-Tune is, in the words of one producer, “the go-to if you just want to set-it-and-forget-it.”
+
+In interviews, Hildebrand handles the question of “is Auto-Tune evil?” with characteristic dry wit. His stock answer is, “My wife wears makeup, does that make her evil?” But on the day I asked him, he answered, “I just make the car. I don’t drive it down the wrong side of the road.”
+
+“I JUST MAKE THE CAR. I DON’T DRIVE IT DOWN THE WRONG SIDE OF THE ROAD.”
+The T-Pains and Chers of the world are the crazy drivers, in Hildebrand’s analogy. The artists that tune with subtlety are like his wife, tasteful people looking to put their best foot forward.
+
+Another way you could answer the question: recorded music is, by definition, artificial. The band is not singing live in your living room. Microphones project sound. Mixing, overdubbing, and multi-tracking allow instruments and voices to be recorded, edited, and manipulated separately. There are multitudes of effects, like compression, which brings down loud sounds and amplifies quiet ones, so you can hear an artist taking a breath in between words. Reverb and delay create echo effects, which can make vocals sound fuller and rounder.
+
+When recording went from tape to digital, there were even more opportunities for effects and manipulation, and Auto-Tune is just one of many of the new tools available. Nonetheless, there are some who feel it’s a different thing. At best, unnecessary. At worst, pernicious.
+
+“The thing is, reverb and delay always existed in the real world, by placing the artist in unique environments, so [those effects are] just mimicking reality,” says Larry Crane, the editor of music recording magazine, Tape Op, and a producer who’s recorded Elliott Smith and The Decemberists. If you sang in a cave, or some other really echo-y chamber, you’d sound like early Elvis, too. “There is nothing in the natural world that Auto-Tune is mimicking, therefore any use of it should be carefully considered.”
+
+“I’d rather just turn the reverb up on the Fender Twin in the troubling place,” says Arizona indie rock pioneer Howe Gelb, of the band Giant Sand. He describes Auto-Tune and other correction plug-ins as “foul” in a way he can’t quite put his finger on. ”There’s something embedded in the track that tends to push my ear away.”
+
+Lee Alexander, one time boyfriend of Norah Jones and bass player and producer for her country side project, The Little Willies, used no Auto-Tune on their two records, and says he doesn’t even own the program.
+
+“Stuff is out of tune everywhere…that to me is the beauty of music,” he wrote in an email.
+
+In 2000, Matt Kadane of the band The New Year, and his brother, Bubba covered Cher’s “Believe”, complete with Auto-Tune. They did it in their former Texas Slo-Core band, Bedhead. Kadane told me hated the original “Believe,” and had to be talked into covering it, but had surprisingly found that putting Auto-Tune on his vocals “added emotional weight.” He hasn’t, however, used Auto-Tune since.
+
+“It’s one thing to make a statement with hollow, disaffected vocals, but it’s another if this is the way we’re communicating with each other,” he says.
+
+For some people, I said, it seems that Auto-Tune is a lot like dudes and fake boobs. Some dudes see fake boobs, they know they’re fake, but they get an erection anyway. They can’t help themselves. Kadane agreed that it “can serve that function.”
+
+“But at some point you’d say ‘that’s fucked up that I have an erection from fake boobs!’” he says. “And in the midst of experiencing that, I think ideally you have a moment that reminds you that authenticity is still possible. And thank God not everything in the world is Auto-Tuned.”
+
+The Beatles actually suck
+DOES YOUR BRAIN GET REWIRED TO EXPECT PERFECT PITCH?
+Sparklehourse
+The concept of pitch needing to be “correct” is a somewhat recent construct. Cue up the Rolling Stones’ Exile on Main St., and listen to what Mick Jagger does on “Sweet Virginia.” There are a lot of flat and sharp notes, because, well, that’s characteristic of blues singing, which is at the roots of rock and roll.
+
+“When a (blues) singer is ‘flat’ it’s not because he’s doing it because he doesn’t know any better. It’s for inflection!” says Victor Coelho, Professor of Music at Boston University.
+
+Blues singers have traditionally played with pitch to express feelings like longing or yearning, to punch up a nastier lyric, or make it feel dirty, he says. “The music is not just about hitting the pitch.”
+
+Of course that style of vocal wouldn’t fly in Auto-Tune. It would get corrected. Neil Young, Bob Dylan, many of the classic artists whose voices are less than pitch perfect – they probably would be pitch corrected if they started out today.
+
+John Parish, the UK-based producer who’s worked with PJ Harvey and Sparklehorse, says that though he uses Auto-Tune on rare occasions, he is no fan. Many of the singers he works with, Harvey in particular, have eccentric vocal styles -- he describes them as “character singers.” Using pitch correction software on them would be like trying to get Jackson Pollock to stay inside the lines.
+
+“I can listen to something that can be really quite out of tune, and enjoy it,” says Parish. But is he a dying breed?
+
+“That’s the kind of music that takes five listens to get really into,” says Nikolic, of Poolside. “That’s not really an option if you want to make it in pop music today. You find a really catchy hook and a production that is in no way challenging, and you just gear it up!”
+
+If you’re of the generation raised on technology-enabled perfect pitch, does your brain get rewired to expect it? So-called “supertasters” are people who are genetically more sensitive to bitter flavors than the rest of us, and therefore can’t appreciate delicious bitter things like IPAs and arugula. Is the Auto-Tune generation likewise more sensitive to off key-ness, and thus less able to appreciate it? Some troubling signs point to ‘yes.’
+
+“I was listening to some young people in a studio a few years ago, and they were like, ‘I don’t think The Beatles were so good,’” says producer Eric Drew Feldman. They were discussing the song “Paperback Writer.” “They’re going, ‘They were so sloppy! The harmonies are so flat!”
+
+Just make me sound good
+John Lennon famously hated his singing voice. He thought it sounded too thin, and was constantly futzing with vocal effects, like the overdriven sound on “I Am the Walrus.” I can relate. I love to sing, and in my head, I hear a soulful, husky, alto. What comes out, however, is a cross between a child in the musical Annie, and Gretchen Wilson: nasal, reedy, about as soulful as a mosquito. I’m in a band and I write all the songs, but I’m not the singer: I wouldn’t subject people to that.
+
+Producer and Editor Larry Crane says he thinks lots of artists are basically insecure about their voices, and use Auto-Tune as a kind of protective shield.
+
+“I’ve had people come in and say I want Auto-Tune, and I say, ‘Let’s spend some time, let’s do five vocal takes and compile the best take. Let’s put down a piano guide track. There’s a million ways to coach a vocal. Let’s try those things first,’” he says.
+
+Recently, I went over to a couple-friend’s house with my husband, to play with Auto-Tune. The husband of the couple, Mike, had the software on his home computer – he dabbles in music production – and the idea was that we’d record a song together, then Auto-Tune it.
+
+We looked for something with four-part harmony, so we could all sing, and for a song where the backing instrumental was available online. We settled on Boyz II Men’s “End of the Road.” One by one we went into the bedroom to record our parts, with a mix of shame and titillation not unlike taking turns with a prostitute.
+
+When we were finished, Mike played back the finished piece, without Auto-Tune. It was nerve wracking to listen to, I felt like my entire body was cringing. Although I hit the notes OK, there was something tentative and childlike about my delivery. Thank God these are my good friends, I thought. Of course they were probably all thinking the same thing about their performances, too, but in my mind, my voice was the most annoying of all, so wheedling and prissy sounding.
+
+Then Mike Auto-Tuned two versions of our Boys II Men song: one with Cher / T-Pain style glitchy Auto-Tune, the other with “natural” sounding Auto-Tune. The exaggerated one was hilariously awesome – it sounded just like a generic R&B song.
+
+But the second one shocked me. It sounded like us, for sure. But an idealized version of us. My husband’s gritty vocal attack was still there, but he was singing on key. And something about fine-tuning my vocals had made them sound more confident, like smoothing out a tremble in one’s speech.
+
+The Auto-Tune or not Auto-Tune debate always seems to turn into a moralistic one, like somehow you have more integrity if you don’t use it, or only use it occasionally. But seeing how really innocuous-yet-lovely it could be, made me rethink. If I were a professional musician, would I reject the opportunity to sound, what I consider to be, “my best,” out of principle?
+
+The answer to that is probably no. But then it gets you wondering. How many insecure artists with “annoying” voices will retune themselves before you ever have a chance to fall in love?

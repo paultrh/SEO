@@ -1,0 +1,99 @@
+Causes of recessions
+A recession implies a fall in real GDP. An official definition of a recession is a period of negative economic growth for two consecutive quarters. Recessions are primarily caused by a fall in aggregate demand. This demand side shock could be due to several factors, such as financial crisis, rise in interest rates or fall in asset prices (like houses)
+
+Recession of 2009
+
+
+
+ This graph shows negative economic growth between Q3 2008 and early 2010.
+
+Causes of recession
+1. Demand Side Shock
+
+Factors that can cause a fall in aggregate demand:
+
+Higher interest rates which reduce borrowing and investment
+Falling real wages
+Falling consumer confidence
+Credit crunch which causes a decline in bank lending and therefore lower investment.
+A period of deflation. Falling prices often encourage people to delay spending. Also deflation increases the real value of debt causing debtors to be worse off.
+Appreciation in exchange rate which makes exports expensive and reduces demand for exports.
+2. Supply Side Shock
+
+Higher oil prices would increase the cost of production and causes the short run aggregate supply curve to shift to the left.
+
+supply
+
+This supply side shock causes lower real GDP and higher inflation. This is difficult to solve with monetary policy – because we have both inflation and lower output to try and solve. (Changing interest rates can’t do both at once.)
+
+Confidence. A fall in confidence can precipitate a recession. See: Can we talk ourselves into recession?
+Examples of Recessions in UK
+
+
+
+ 
+
+Causes of Great Depression 1930-32
+
+Stock market crash causing financial turmoil and decline in confidence
+Fall in trade due to global nature of downturn.
+Adherence to gold standard and overvalued exchange rate until 1931
+Deflationary fiscal policy (higher taxes, lower spending) worsened situation
+More detail at causes of great depression
+Causes of 1981 Recession
+
+
+
+1981 recession was caused by:
+
+High value of the pound which made exports more expensive and reduced demand for exports. This recession particularly impacted on British manufacturing.
+High interest rates. In 1979, inflation in the UK was over 15%. The new Conservative governmet was committed to reducing high inflation they inherited. They pursued a tight monetary policy (higher interest rates) and tight fiscal policy (higher taxes, lower government spending. This reduced inflation but at a cost of falling spending, investment and output.interest-rates
+Tight Fiscal Policy. To control inflation the government were committed to reducing the levels of Government borrowing. This was influenced from Monetarist beliefs that controlling excess government borrowing was essential to the economy. Therefore the government increased taxes which reduced the disposable income of consumers and therefore reduced consumer spending.
+more on 1981 recession
+
+Causes of 1991 Recession
+
+growth
+
+BOOM and BUST. In the 1980s economic growth was too fast and unsustainable therefore inflation increased to over 10% (see: Lawson boom). To reduce this inflation the government increased interest rates which lowered spending.
+Joining the Exchange Rate Mechanism. The government became committed to maintaining a high value of the pound. This required high interest rates of up to 15%, which caused a big fall in aggregate demand. Also, because the pound was overvalued, exports were expensive causing less demand for UK exports.
+High interest rates increased the cost of mortgage interest payments. Many were forced to sell. This caused a fall in house prices. Falling house prices caused a decline in consumer wealth and lower confidence. This also caused lower spending.
+more on: 1991 recession
+
+Causes Recession of 2008/09
+
+Credit crunch – shortage of finance (Credit Crunch explained)
+Falling house prices – related to shortage of mortgages and credit crunch
+Cost push inflation squeezing incomes and reducing disposable income
+Collapse in confidence of finance sector causing lower confidence amongst ‘real economy’
+ 
+
+Video on Cause of 2008/09 Recession
+
+
+
+ 
+
+Essay on Causes of Recession
+
+A recession occurs when there is a fall in economic growth for two consecutive quarters. However if growth is very low there will be increased spare capacity and increased unemployment; people will feel there is a recession. This is sometimes known as a growth recession. see also: Definition of Recessions
+
+If there is a fall in AD then according to Keynesian analysis there will be a fall in Real GDP. The effect on Real GDP depends upon the slope of the AS curve if the economy is close to full capacity lower AD would only cause a small fall in Real GDP.
+
+ 
+
+AD is composed of C+I+G+X-M, therefore a fall in any of these components could cause a recession. For example, if the MPC increased interest rates sharply this would cause the cost of borrowing to increase and make saving more attractive. This would have the effect of reducing consumer spending. AD could also fall due to deflationary fiscal policy, for example higher taxes and lower government spending would also cause a fall in AD.
+
+If there was a fall in AD the multiplier effect may magnify the initial fall in A. For example if there was a fall in output, workers would be made unemployed. These workers would then spend less causing a secondary fall in AD. This would make the fall in Real GDP greater.
+
+A key feature in determining the rate of economic growth is the level of consumer and business confidence. If confidence was high then higher interest rates may not reduce demand. However if confidence is low and people fear they may be made unemployed, then they will start spending less, causing AD to fall (or increase at a slower rate). Therefore this shows that expectations are very important and it is possible for “people to talk themselves into a recession”
+
+An important feature of the UK economy is international trade, therefore the UK would be affected by a global recession. For example a recession in the EU would cause  a fall in demand for UK exports reducing our AD (EU accounts for 60% of our trade therefore is important). Also a recession in other countries would effect economic confidence if people see the US in a recession they are worried and will spend less. However a global recession may not cause a recession in the UK if domestic demand remains high.
+
+Classical Economists believe that any fall in Real GDP will be temporary and will end when labour markets adjust to the new price level. Classical economists argue that if there is a fall in AD then in the short term there will be a fall in Real GDP. However with a lower price level wages will fall therefore the SRAS will shift to the right and the economy will return to the original level at Yf  and the recession will be over.
+
+However in the great depression of 1930s Keynes was very critical of this classical view he said that the long period of negative growth showed that markets do not automatically clear he argued that this was for various reasons.
+
+Wages are sticky downwards, Firms should cut wages to reflect lower prices but in reality workers are very resistant to cuts in nominal wages
+If wages were cut in response to unemployment workers would have less spending power therefore AD would continue to fall.
+In a recession people have low confidence and therefore spend less. Keynes said this was the “Paradox of Thrift”
