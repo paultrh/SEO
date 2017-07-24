@@ -61,7 +61,7 @@ def getThemes():
     tmp = []
     for root, dirs, files in os.walk("."):
       path = root.split(os.sep)
-      if ('tmp' in path and os.path.basename(root) != 'tmp'):
+      if ('tmp' in path and os.path.basename(root) != 'tmp' and "submit" not in path):
           tmp.append(os.path.basename(root))
     return tmp
 
@@ -141,6 +141,30 @@ for index, elt in enumerate(thematicsList):
 def jaccard_similarity(set1, set2):
     intersection_cardinality = len(set.intersection(*[set1, set2]))
     union_cardinality = len(set.union(*[set1, set2]))
-    print(intersection_cardinality/float(union_cardinality))
-    
+    return ((intersection_cardinality/float(union_cardinality))*100)
 
+def dictToSet(dico, notDataset):
+    mySet = set()
+    for key, value in dico.items():
+        if (value > 3 or notDataset):
+            mySet.add(key)
+    return mySet;
+
+print('#########' + str(index) + '| analyse submitText')
+files = getFilesPath('submit')
+for f in files:
+    print("--> " + f)
+    grams = {}
+    with open(f, 'r') as myfile:
+        data=myfile.read().strip()
+        data = replace_all(data)
+        data = data.lower()
+        ngs = ngrams(data, 3)
+        ngs = [' '.join(x) for x in ngs]
+        for g in ngs:
+           grams.setdefault(g, 0)
+           grams[g] += 1
+    getReport(grams)
+    for i, elt in enumerate(ngramList):
+        percent = jaccard_similarity(dictToSet(elt, False), dictToSet(grams, True))
+        print('##' + str(index) + '| analyse ' + f + ' over '+ thematicsList[i] +'| -> ' + str(percent) + ' %')
