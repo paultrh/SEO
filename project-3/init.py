@@ -147,11 +147,15 @@ def jaccard_similarity(set1, set2):
 def dictToSet(dico, notDataset):
     mySet = set()
     for key, value in dico.items():
-        if (value > 3 or notDataset):
-            #isCoherent = input("Is revelant y/n ? -> : " + key)
-            #if (isCoherent):
-            mySet.add(key)
+        if (value > 6):
+            isCoherent = True if input("Is revelant y/n ? -> : " + key) == 'y' else False
+            if (isCoherent):
+                mySet.add(key)
     return mySet;
+
+ngramSetsList = []
+for elt in ngramList:
+    ngramSetsList.append(dictToSet(elt, False))
 
 print('#########' + str(index) + '| analyse submitText')
 files = getFilesPath('submit')
@@ -171,6 +175,6 @@ for f in files:
     getReport(grams)
     maxVal = 0
     for i, elt in enumerate(ngramList):
-        percent = jaccard_similarity(dictToSet(elt, False), dictToSet(grams, True))
+        percent = jaccard_similarity(ngramSetsList[i], dictToSet(grams, True))
         maxVal = max(maxVal, percent)
         print('##' + str(index) + '| analyse ' + f + ' over '+ thematicsList[i] +'| -> ' + str(percent) + ' %')
