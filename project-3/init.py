@@ -116,11 +116,12 @@ for index, elt in enumerate(thematicsList):
             data=myfile.read().strip()
             data = replace_all(data)
             data = data.lower()
-            ngs = ngrams(data, 3)
-            ngs = [' '.join(x) for x in ngs]
-            for g in ngs:
-               grams.setdefault(g, 0)
-               grams[g] += 1
+            for r in range(3, 6):
+                ngs = ngrams(data, r)
+                ngs = [' '.join(x) for x in ngs]
+                for g in ngs:
+                    grams.setdefault(g, 0)
+                    grams[g] += 1
     ngramList.append(grams)
 
 print()
@@ -147,6 +148,8 @@ def dictToSet(dico, notDataset):
     mySet = set()
     for key, value in dico.items():
         if (value > 3 or notDataset):
+            #isCoherent = input("Is revelant y/n ? -> : " + key)
+            #if (isCoherent):
             mySet.add(key)
     return mySet;
 
@@ -159,12 +162,15 @@ for f in files:
         data=myfile.read().strip()
         data = replace_all(data)
         data = data.lower()
-        ngs = ngrams(data, 3)
-        ngs = [' '.join(x) for x in ngs]
-        for g in ngs:
-           grams.setdefault(g, 0)
-           grams[g] += 1
+        for r in range(3, 6):
+                ngs = ngrams(data, r)
+                ngs = [' '.join(x) for x in ngs]
+                for g in ngs:
+                    grams.setdefault(g, 0)
+                    grams[g] += 1
     getReport(grams)
+    maxVal = 0
     for i, elt in enumerate(ngramList):
         percent = jaccard_similarity(dictToSet(elt, False), dictToSet(grams, True))
+        maxVal = max(maxVal, percent)
         print('##' + str(index) + '| analyse ' + f + ' over '+ thematicsList[i] +'| -> ' + str(percent) + ' %')
