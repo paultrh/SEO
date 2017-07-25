@@ -31,4 +31,4 @@ for f in tri:
 			grams.setdefault(g, 0)
 			grams[g] += 1
 ngramList.append(grams)
-(ngramList)
+print(ngramList)
