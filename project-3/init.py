@@ -4,6 +4,7 @@ import shutil
 import os
 import sys
 from math import *
+import operator
 
 print('### project-3 ###')
 DEMO_MODE = False
@@ -100,9 +101,10 @@ def ngrams(input, n):
   return output
 
 def replace_all(text):
-    sanitize = ['\n', ',', '(', ')', '-']
+    sanitize = ['\n', ',', '(', ')', '-', '.', '\r', '\'']
     for i in sanitize:
         text = text.replace(i, '')
+        text = " ".join(text.split())
     return text
 
 
@@ -116,7 +118,7 @@ for index, elt in enumerate(thematicsList):
             data=myfile.read().strip()
             data = replace_all(data)
             data = data.lower()
-            for r in range(3, 6):
+            for r in range(2, 7):
                 ngs = ngrams(data, r)
                 ngs = [' '.join(x) for x in ngs]
                 for g in ngs:
@@ -144,18 +146,21 @@ def jaccard_similarity(set1, set2):
     union_cardinality = len(set.union(*[set1, set2]))
     return ((intersection_cardinality/float(union_cardinality))*100)
 
-def dictToSet(dico, notDataset):
+def dictToSet(dico, name):
     mySet = set()
+    sorted_x = sorted(dico.items(), key=operator.itemgetter(0))
+    for i in range(0, 5):
+        print(sorted_x[i])
     for key, value in dico.items():
-        if (value > 6):
-            isCoherent = True if input("Is revelant y/n ? -> : " + key) == 'y' else False
-            if (isCoherent):
-                mySet.add(key)
+        if (value > 1):
+        #    isCoherent = True if input("Is revelant for "+ name +" y/n ? -> : " + key) == 'y' else False
+        #    if (isCoherent):
+            mySet.add(key)
     return mySet;
 
 ngramSetsList = []
-for elt in ngramList:
-    ngramSetsList.append(dictToSet(elt, False))
+for i, elt in enumerate(ngramList):
+    ngramSetsList.append(dictToSet(elt, getFilesPath(thematicsList[i])[0]))
 
 print('#########' + str(index) + '| analyse submitText')
 files = getFilesPath('submit')
@@ -166,7 +171,7 @@ for f in files:
         data=myfile.read().strip()
         data = replace_all(data)
         data = data.lower()
-        for r in range(3, 6):
+        for r in range(2, 7):
                 ngs = ngrams(data, r)
                 ngs = [' '.join(x) for x in ngs]
                 for g in ngs:
@@ -175,6 +180,6 @@ for f in files:
     getReport(grams)
     maxVal = 0
     for i, elt in enumerate(ngramList):
-        percent = jaccard_similarity(ngramSetsList[i], dictToSet(grams, True))
+        percent = jaccard_similarity(ngramSetsList[i], dictToSet(grams, f))
         maxVal = max(maxVal, percent)
         print('##' + str(index) + '| analyse ' + f + ' over '+ thematicsList[i] +'| -> ' + str(percent) + ' %')
