@@ -11,10 +11,13 @@ SEO project
 In project-3/
 
 if default python installation is python3
+```
 $ ./init.py
+```
 else
+```
 $ python3 init.py
-
+```
 ### Description
 There is one folder file use for the demo mode.
 The demo mode show an explicit example
