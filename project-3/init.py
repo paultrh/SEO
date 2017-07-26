@@ -46,7 +46,10 @@ def copyfiles():
             if (os.path.isfile(full_file_name)):
                 if (not os.path.isdir("tmp/"+os.path.basename(root))):
                     os.makedirs("tmp/"+os.path.basename(root))
-                shutil.copy(full_file_name, "tmp/"+os.path.basename(root))
+                try:
+                    shutil.copy(full_file_name, "tmp/"+os.path.basename(root))
+                except:
+                    continue
 
 if (DEMO_MODE):
     copyfiles()
@@ -101,10 +104,10 @@ def ngrams(input, n):
   return output
 
 def replace_all(text):
-    sanitize = ['\n', ',', '(', ')', '-', '.', '\r', '\'']
+    sanitize = ['\n', ',', '(', ')', '-', '.', '\r', '\'', '"']
     for i in sanitize:
         text = text.replace(i, '')
-        text = " ".join(text.split())
+        text = ' '.join(text.split())
     return text
 
 
@@ -148,14 +151,14 @@ def jaccard_similarity(set1, set2):
 
 def dictToSet(dico, name):
     mySet = set()
-    sorted_x = sorted(dico.items(), key=operator.itemgetter(0))
-    for i in range(0, 5):
-        print(sorted_x[i])
-    for key, value in dico.items():
-        if (value > 1):
-        #    isCoherent = True if input("Is revelant for "+ name +" y/n ? -> : " + key) == 'y' else False
-        #    if (isCoherent):
-            mySet.add(key)
+    #sorted_x = sorted(dico.items(), key=operator.itemgetter(0)) #key
+    sorted_x = sorted(dico.items(), key=operator.itemgetter(1)) #value
+    sorted_x.reverse()
+    print('-------------' + name + '-------------')
+    for i in range(0, len(sorted_x)):
+        #isCoherent = True if input("Is revelant for "+ name + " y/n ? -> : " + str(sorted_x[i])) == 'y' else False
+        #if (isCoherent):
+        mySet.add(sorted_x[i])
     return mySet;
 
 ngramSetsList = []
