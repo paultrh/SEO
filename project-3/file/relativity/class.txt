@@ -1,0 +1,74 @@
+With the general theory of relativity, in which Einstein managed to reconcile relativity and gravitation, he had to discard the traditional physics worldview, which saw space as merely a stage on which the events of the world unfold. Instead, space-time is a dynamic entity, which is distorted by any matter that is contained in it, and which in turn tells that matter how to move and evolve. This interaction between spacetime and matter is described by Einstein's geometric, relativistic theory of gravity.
+
+The consequences of that theory are spectacular. For instance, general relativity predicts that even light is deflected by gravity - a prediction that has been confirmed by numerous astronomical observations. In addition, it predicts exotic phenomena like gravitational waves and black holes, which are described in later sections of Einstein Online.
+The key idea of Einstein's theory of general relativity is that gravity is not an ordinary force, but rather a property of space-time geometry. The following simplified analogy, which substitutes a two-dimensional surface for four-dimensional space-time, serves to illustrate this idea.
+
+Imagine empty space - in our case, a two-dimensional plane - with no forces acting between the bodies floating around. If there are no forces, then classical mechanics and Einstein's mechanics of special relativity are in agreement: Under these circumstances, bodies move along the straightest possible lines (which in this case are just straight lines in space) with a constant velocity. In the following image, this is symbolized by the straight paths of two particles A and B:
+
+
+In particular, particles that start to move along parallel trajectories (as in the above image) will never meet, but are fated to remain forever at a constant distance from one another.
+
+In the world of classical physics, if particles diverge from this behavior, it must be because there is a force acting on them. Forces accelerate particles, causing them to leave the straightest possible paths and follow curved trajectories instead. In our two-dimensional example, look at the following picture,
+
+
+in which the particles A and B start out in parallel, but are then accelerated towards one another. In Newton's theory of gravity, gravitation is a force which could cause such an effect. For instance, the reason that the two particles in the above picture accelerate toward each other and then meet could be that they are both attracted gravitationally by a massive body located at the point of their meeting.
+
+However, there is another possibility in which the same situation (where two particles that start out in parallel converge and finally meet) could arise. The two particles could still be moving on the straightest possible lines - not in the plane, but on a curved surface! The following image shows an example:
+
+Globus mit geodaetischem Dreieck
+In that situation, there is no force making the particles deviate from the straightest possible lines; the mere fact that the particles are moving on a sphere means that, even if they still move as straight as possible, their paths will converge.
+
+Einstein's theory is exactly analogous to this. In Newton's theory, gravity makes particles leave their straight paths. In Einstein's theory of general relativity, gravity is a distortion of space-time. Particles still follow the straightest possible paths in that space-time. But because space-time is now distorted, even on those straightest paths, particles accelerate as if they were under the influence of what Newton called the gravitational force.
+The cosmic dance
+
+
+In this new picture, there is no gravitational force that masses exert on other masses. Instead, there are space-time distortions. Space-time in the presence of a mass is curved.
+
+In flat, empty space-time, small test particles follow straight lines. However, just as there are no straight lines on the surface of a sphere, the closest we can come to the notion of a straight line in a curved space-time is what mathematicians call a geodesic (a space-time line that is as straight as possible). Small particles in the vicinity of a massive sphere follow space-time geodesics, which send them plunging toward the mass, or into an orbit around it. Gravity doesn't deflect these particles from their straight lines. It redefines what it means to move in the straightest possible way.
+
+As a consequence, Einstein's universe performs an ongoing cosmic dance in which matter and space-time interact. A given configuration of matter distorts space-time geometry (not only because of mass, but also with its energy, inner tensions or pressure) and this distorted geometry makes matter move in certain ways. This movement, in turn, changes the matter configuration, and space-time geometry changes correspondingly. Now that space-time geometry is a bit different, it also acts on matter in a different way, matter moves, geometry changes, and so on in an endless dance.
+
+If Einstein's theory had given us no more than an elegant alternative way to describe the effects Newtonian gravity, but no more, it would be intellectually satisfying, but hardly a physics revolution. In fact, Einstein's theory gives predictions different from its Newtonian predecessor - in some situations markedly different. From Einstein's point of view, Newton's theory captures merely a subclass of gravitational phenomena, certain distortions of time that change straight space-time lines into the parabolas of falling bodies or the closed paths of orbiting planets. Distorted space, the gravitational influence of energy or pressure, the way in which gravity can, in a well-defined way, sometimes be "its own source": All of these Einsteinian effects are absent in Newton's description of gravity. We will see some of the dramatic consequences in the following chapters about black holes, gravitational waves or cosmology. However, when Einstein first formulated his theory, he had to rely on much more subtle ways in which his predictions vary from those of Newton's theory, as we shall see in the next section.
+A planet goes astray
+
+
+The first test of general relativity concerned a situation in which Newton's and Einstein's theories give almost the same result - with a small but crucial difference. The scene: our cosmic backyard, the solar system. The protagonist: Mercury, the planet closest to the sun. For a lonely planet orbiting the sun, Newtonian physics (more precisely: Kepler's laws of planetary motion, which can be derived from Newtonian mechanics) predict an elliptical orbit, with the sun in one of the focal points.
+Ellipsenbahn Planet
+
+
+For the same situation, Einstein's theory predicts a slightly different orbit: not an ellipse, but a kind of rosette. As Mercury orbits around the sun, the two points of each orbit closest to the sun and furthest away from it (in astronomical lingo: perihelion and aphelion) should ever-so-slightly shift from one orbit to the next. The following figure shows an exaggerated version of this movement:
+
+ 
+
+Periheldrehung Planetenbahn
+
+
+In the solar system, where there's more than one planet orbiting the sun, the situation is a bit more complicated. There, the mutual gravitational pull of the planets on each other leads to a slight shift of perihelion and aphelion points, even without Einstein's results. However for Mercury, where the relativistic effect should be strongest, the shift that we observe is slightly larger than expected. Even when the influence of all the other planets taken into account, a slight extra contribution is left over. A simple calculation in general relativity predicts exactly that tiny additional shift. Since astronomers routinely use the perihelion as their reference point, this is called the relativistic perihelion shift (just as, among astronomers, the extra contribution, unexplained in pre-Einstein physics, was the "anomalous perihelion advance" of Mercury). While this effect is most pronounced for Mercury, more recent measurements have also confirmed it for Venus, Earth and Mars.
+The light side of gravity
+
+
+For the propagation of light, Einstein's theory makes a clear prediction: Light is deflected by gravity. Just as test particles move on the straightest-possible lines in curved space-time (i.e. on space-time geodesics), so does light.
+
+The most basic example: Light rays passing a massive body are bent towards that mass. This effect increases for light rays that pass the body at smaller and smaller distances from it. The effect is shown in the following figure, with the massive body shown in yellow, and the light rays (with light moving from left to right) in red:
+
+Lichtablenkung im Schwerefeld der Sonne
+
+ 
+
+The first measurement of this relativistic effect was made by British astronomers in 1919. They used the fact that light deflection changes astronomical observations. The "location of a star in the night sky" is simply short-hand for "the direction from which that star's light reaches us". Starlight that passes close to the sun before reaching us gets deflected, as sketched in the figure above (but by a much smaller amount than is shown there). This starlight will thus reach us from a slightly different direction than when the sun is in some different region of the sky. Accordingly, the star's position in the night sky is shifted slightly.
+
+Under ordinary circumstances, the disk of the sun is much too bright for astronomers to observe nearby stars. But during a solar eclipse, such observations are possible, and that's what two British expeditions did in 1919: They traveled to locations from which they could observe a solar eclipse, photographed the stars near the sun, and compared these images with photographs taken of that same region of the sky while the sun was somewhere else. The comparison confirmed Einstein's predictions (although, in these early measurements, not to any great precision). In the wake of those observations, general relativity became a theory to be reckoned with (and Einstein became the celebrity he still is today).
+
+An important application of the deflection effect concerns so-called gravitational lenses, masses configured in a way that astronomers can see two or more images of one and the same far-away object in the night-sky! The following photograph shows a famous example. No, those aren't four objects forming a cross around the center - they're four images of one and the same object:
+Conclusion
+
+
+The aim of this chapter was to give the reader a basic idea of what general relativity is all about.
+
+Einstein's theory of gravity led physicists to a variety of new models and phenomena. The most important examples - gravitational waves, black holes, the big bang models - will be dealt with in the following chapters.
+
+Elementary Einstein continues with
+
+Chapter 3: Gravitational waves
+
+Alternatively, if you want to find out more about the basics of general relativity first, check out the category General relativity of our Spotlights on relativity.

@@ -6,6 +6,8 @@ import sys
 from math import *
 import operator
 
+MIN_NGRAM = 2
+MAX_NGRAM = 5
 print('### project-3 ###')
 DEMO_MODE = False
 demoInput = input('Demo mode (y/n)')
@@ -104,8 +106,9 @@ def ngrams(input, n):
   return output
 
 def replace_all(text):
-    sanitize = ['\n', ',', '(', ')', '-', '.', '\r', '\'', '"']
+    sanitize = ['\n', ',', '(', ')', '-', '.', '\r', '\'', '"', '?', '!']
     for i in sanitize:
+        text = text.lower()
         text = text.replace(i, '')
         text = ' '.join(text.split())
     return text
@@ -117,11 +120,10 @@ for index, elt in enumerate(thematicsList):
     files = getFilesPath(elt)
     grams = {}
     for f in files:
-        with open(f, 'r') as myfile:
+        with open(f, 'r', encoding='utf-8', errors='ignore') as myfile:
             data=myfile.read().strip()
             data = replace_all(data)
-            data = data.lower()
-            for r in range(2, 7):
+            for r in range(MIN_NGRAM, MAX_NGRAM):
                 ngs = ngrams(data, r)
                 ngs = [' '.join(x) for x in ngs]
                 for g in ngs:
@@ -155,10 +157,10 @@ def dictToSet(dico, name):
     sorted_x = sorted(dico.items(), key=operator.itemgetter(1)) #value
     sorted_x.reverse()
     print('-------------' + name + '-------------')
-    for i in range(0, len(sorted_x)):
-        #isCoherent = True if input("Is revelant for "+ name + " y/n ? -> : " + str(sorted_x[i])) == 'y' else False
-        #if (isCoherent):
-        mySet.add(sorted_x[i])
+    for i in range(0, min(20, len(sorted_x))):
+        isCoherent = True if input("Is revelant for "+ name + " y/n ? -> : " + str(sorted_x[i])) == 'y' else False
+        if (isCoherent):
+            mySet.add(sorted_x[i][0])
     return mySet;
 
 ngramSetsList = []
@@ -170,11 +172,11 @@ files = getFilesPath('submit')
 for f in files:
     print("--> " + f)
     grams = {}
-    with open(f, 'r') as myfile:
-        data=myfile.read().strip()
+    with open(f, 'r', encoding='utf-8', errors='ignore') as myfile:
+        data = myfile.read().strip()
         data = replace_all(data)
         data = data.lower()
-        for r in range(2, 7):
+        for r in range(MIN_NGRAM, MAX_NGRAM):
                 ngs = ngrams(data, r)
                 ngs = [' '.join(x) for x in ngs]
                 for g in ngs:
@@ -183,6 +185,12 @@ for f in files:
     getReport(grams)
     maxVal = 0
     for i, elt in enumerate(ngramList):
-        percent = jaccard_similarity(ngramSetsList[i], dictToSet(grams, f))
+        s1 = ngramSetsList[i]
+        s2 = dictToSet(grams, f)
+        print('s1')
+        print(s1)
+        print('s2')
+        print(s2)
+        percent = jaccard_similarity(s1, s2)
         maxVal = max(maxVal, percent)
         print('##' + str(index) + '| analyse ' + f + ' over '+ thematicsList[i] +'| -> ' + str(percent) + ' %')

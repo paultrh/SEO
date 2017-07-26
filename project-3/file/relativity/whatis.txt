@@ -1,0 +1,55 @@
+What is Einstein's theory of relativity?
+Einstein's landmark theory predicted the existence of gravitational waves 100 years before they were first detected
+Albert Einstein’s theories of special and general relativity rule the field of classical physics.
+
+Their effects can be seen in our everyday lives and govern everything from GPS systems to the electricity that powers our homes.
+
+What is relativity?
+In 1905, Einstein's groundbreaking work showed that the speed of light in a vacuum is independent of the motion of all observers, and the laws of physics are the same for all so-called 'non-accelerating' observers.
+At its most simple, non-accelerating observers are those who are not moving or accelerating as they observe what's happening. This is known as the theory of special relativity.
+
+This work introduced a new framework for all of physics, and proposed new concepts of space and time.
+
+The theory explains the behaviour of objects in space and time, and it can be used to predict everything from the existence of black holes, to light bending due to gravity and the behaviour of the planet Mercury in its orbit.
+
+READ NEXT
+After budget cuts, museums are crowdfunding to preserve history
+
+After budget cuts, museums are crowdfunding to preserve history
+By LIBBY PLUMMER
+The three rules of relativity
+Einstein's theory helps explain how black holes interact with the universe
+Einstein's relativity theory is deceptively simple and consists of just three rules.
+
+The first says every time you measure an object's speed, its momentum, or how it experiences time, will always be measured in relation to something else. The second says that the speed of light is the same no matter who measures it or how fast the person measuring it is going. And the third dictates that nothing can travel faster than the speed of light.
+But there was something missing from these equations.
+
+Einstein spent ten more years trying to include acceleration in the theory, finally publishing his theory of general relativity in 1915. In this addition to special relativity, he found that massive objects cause a distortion in spacetime which is felt as gravity.
+
+What is spacetime?
+At its simplest, spacetime can be thought of as a giant rubber sheet with a bowling ball in the centre. In the same way the ball would warp the sheet, a planet bends the fabric of spacetime ultimately creating the force we feel as gravity. Any object that comes near to the body falls towards it because of this effect.
+
+Einstein predicted that if two massive bodies came together it would create such a huge ripple in spacetime that it should be detectable on Earth. The ripples can be produced when black holes orbit each other or by the merging of galaxies, black holes and neutron stars, for example.
+These ripples were dubbed gravitational waves and 100 years after they were proposed, these waves were first detected in February.
+
+This discovery was confirmed when gravitational waves were detected for a second time in June. Gravitational waves are also thought to have been produced during the Big Bang.
+
+Learn more about gravitational waves.
+Detecting gravitational waves
+Nasa's depiction of gravitational waves emerging from a black hole
+To detect gravitational waves, the Laser Interferometer Gravitational Wave Observatory (Ligo) experiment uses interferometers to detect tiny amounts of gravitational radiation.
+
+Interferometers merge two or more sources of light to create what's known as an interference pattern.
+
+Since their discovery, gravitational wave detectors are currently in a 'dark phase' which means they are not running while scientists try to increase their sensitivity. Professor David Reitze, professor of physics at the University of Florida told WIRED the detector sensitivity is going to improve by up to 25 per cent before the detectors are turned on again for the second run.
+
+"Even a modest improvement of 25 per cent in sensitivity gives us a factor of two in event rate," he said. The second run will be going for six months, so he expects to see six or eight more gravitational waves in that time, Professor Reitze said.
+
+Dark energy
+Despite Einstein's correct predictions, his theory of relativity does not answer all the questions of the universe. There are still problems that cannot be resolved by the theory, such as dark energy.
+
+Dark energy is a phrase used by physicists to describe a mysterious 'something' that is causing the universe to accelerate. Physicists and astronomers across the world are focusing their efforts on finding out what this 'something' is.
+The Hubble Space Telescope observes distant galaxies to measure how fast the Universe is expanding
+Recently, researchers from Sun Yat-sen University in Guangzhou province, China claimed that, somewhat controversially, there is more to gravity than general relativity.
+
+"Dark energy can be interpreted as an effect of the uniform expansion of the vacuum," Dr Peng Huang, lead author of the paper, told WIRED. "Which in return indicates that there is a new theory of gravity, not general relativity, one should use to describe the universe."
