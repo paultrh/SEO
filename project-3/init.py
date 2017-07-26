@@ -44,7 +44,7 @@ def copyfiles():
     if ('file' in path):
         for file in files:
             full_file_name = os.path.join(root, file)
-            print(full_file_name)
+            #print(full_file_name)
             if (os.path.isfile(full_file_name)):
                 if (not os.path.isdir("tmp/"+os.path.basename(root))):
                     os.makedirs("tmp/"+os.path.basename(root))
@@ -107,10 +107,10 @@ def ngrams(input, n):
 
 def replace_all(text):
     sanitize = ['\n', ',', '(', ')', '-', '.', '\r', '\'', '"', '?', '!']
+    text = text.lower()
     for i in sanitize:
-        text = text.lower()
         text = text.replace(i, '')
-        text = ' '.join(text.split())
+    text = ' '.join(text.split())
     return text
 
 
@@ -131,9 +131,9 @@ for index, elt in enumerate(thematicsList):
                     grams[g] += 1
     ngramList.append(grams)
 
-print()
-print("--- report ---")
-print()
+#print()
+#print("--- report ---")
+#print()
 
 def getReport(dico):
     tmp = {}
@@ -142,55 +142,72 @@ def getReport(dico):
         tmp[value] += 1
     print(tmp)
 
-for index, elt in enumerate(thematicsList):
-    getReport(ngramList[index])
-    print('#' + str(index) + '| have ' + str(len(ngramList[index])))
+#for index, elt in enumerate(thematicsList):
+    #getReport(ngramList[index])
+    #print('#' + str(index) + '| have ' + str(len(ngramList[index])))
 
 def jaccard_similarity(set1, set2):
     intersection_cardinality = len(set.intersection(*[set1, set2]))
     union_cardinality = len(set.union(*[set1, set2]))
     return ((intersection_cardinality/float(union_cardinality))*100)
 
-def dictToSet(dico, name):
+def loadSetByFile(file):
+    with open(file) as f:
+        content = f.readlines()
+    content = [x.strip() for x in content]
+    return set(content)
+
+def dictToSet(dico, name, path, submitText):
+    if (os.path.isfile(os.path.join(os.path.dirname(path), "_demo_ngrams.txt"))):
+        return loadSetByFile(os.path.join(os.path.dirname(path), "_demo_ngrams.txt"))
     mySet = set()
-    #sorted_x = sorted(dico.items(), key=operator.itemgetter(0)) #key
-    sorted_x = sorted(dico.items(), key=operator.itemgetter(1)) #value
+    sorted_x = sorted(dico.items(), key=operator.itemgetter(1))
     sorted_x.reverse()
     print('-------------' + name + '-------------')
     for i in range(0, min(20, len(sorted_x))):
         isCoherent = True if input("Is revelant for "+ name + " y/n ? -> : " + str(sorted_x[i])) == 'y' else False
         if (isCoherent):
             mySet.add(sorted_x[i][0])
+    if (not submitText and not os.path.isfile(os.path.join(os.path.dirname(path), "_demo_ngrams.txt"))):
+        with open(os.path.join(os.path.dirname(path), "_demo_ngrams.txt"), 'a') as out:
+            for elt in mySet:
+                out.write(elt + os.linesep)
     return mySet;
 
 ngramSetsList = []
 for i, elt in enumerate(ngramList):
-    ngramSetsList.append(dictToSet(elt, getFilesPath(thematicsList[i])[0]))
+    ngramSetsList.append(dictToSet(elt, getFilesPath(thematicsList[i])[0], getFilesPath(thematicsList[i])[0],False))
 
-print('#########' + str(index) + '| analyse submitText')
+print('#########' + str(index) + '| analyse submited Texts')
+submitedTextNGrams = []
+submitedTextNames = []
 files = getFilesPath('submit')
 for f in files:
-    print("--> " + f)
+    submitedTextNames.append(os.path.basename(f))
     grams = {}
     with open(f, 'r', encoding='utf-8', errors='ignore') as myfile:
         data = myfile.read().strip()
         data = replace_all(data)
-        data = data.lower()
         for r in range(MIN_NGRAM, MAX_NGRAM):
                 ngs = ngrams(data, r)
                 ngs = [' '.join(x) for x in ngs]
                 for g in ngs:
                     grams.setdefault(g, 0)
                     grams[g] += 1
-    getReport(grams)
+    submitedTextNGrams.append(dictToSet(grams, os.path.basename(f), '', True))
+    #getReport(grams)
+
+print("###############    CONCLUSION    ###############")
+for i, elt in enumerate(submitedTextNGrams):
     maxVal = 0
-    for i, elt in enumerate(ngramList):
-        s1 = ngramSetsList[i]
-        s2 = dictToSet(grams, f)
-        print('s1')
-        print(s1)
-        print('s2')
-        print(s2)
-        percent = jaccard_similarity(s1, s2)
-        maxVal = max(maxVal, percent)
-        print('##' + str(index) + '| analyse ' + f + ' over '+ thematicsList[i] +'| -> ' + str(percent) + ' %')
+    index = -1
+    for j, sections in enumerate(ngramList):
+        percent = jaccard_similarity(submitedTextNGrams[i], ngramSetsList[j])
+        if (max(maxVal, percent) > maxVal):
+            maxVal = max(maxVal, percent)
+            index = j
+        print("#   -> " + submitedTextNames[i] + " over " + thematicsList[j] + " = " + str(percent) + " %")
+    print("### BILAN  ### -> " + submitedTextNames[i] + " belongs to " + (" NO ONE " if index == -1 else thematicsList[index]) + " with " + str(maxVal) + "%")
+print("##################################################")
+
+        
