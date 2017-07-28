@@ -9,12 +9,12 @@ from math import *
 files = sys.argv[1:]
 nbTotalFiles = len(files)
 nbFileWithWord = 1
-nbGrams = int(input('Please enter the number of representative ngram you want to see: \n'))
+nbGrams = int(input('Please enter the number of representative n-grams you want to see: \n'))
 
 def getTf(countCurWord, countMostFrequent):
 	tf = countCurWord / countMostFrequent
 	return tf
-	
+
 def getIdf(nbTotalFiles, nbFileWithWord):
 	ratio = nbTotalFiles / nbFileWithWord
 	return (log10(ratio) + 1)
@@ -31,13 +31,13 @@ def replace_all(text):
     for i in sanitize:
         text = text.replace(i, '')
     return text
-	
+
 gramsOccurence = {}
 gramsFile = {}
 resultString = ''
 countMostFrequent = 0
 
-print('processing...')
+print('Processing...')
 
 for file in files:
 	tmpSet = {}
@@ -59,7 +59,7 @@ for file in files:
 				tmpSet[g] += 1;
 
 
-print('finalize')
+print('Finalize')
 tfIdfSet = {}
 for gram in gramsOccurence:
 	tfIdf = getTf(gramsOccurence[gram], countMostFrequent) * getIdf(nbTotalFiles, gramsFile[gram])
@@ -70,5 +70,5 @@ for res in resultList:
 	resultString += str(res) + '\n'
 
 f = open('result.txt', 'w+')
-print('please check generated result.txt file')
+print('Please check the generated result.txt file')
 f.write(resultString)

@@ -5,7 +5,7 @@ SEO project
 
 In project-2/
 ```
-$ ./sujet2.py [path-to-file-to-analyse.txt]
+$ python 3 sujet2.py [path-to-file-to-analyze.txt]
 ```
 After launching this command, you will have to chose the size of the n-grams you desire.
 The results will be stored in a results.txt file at the root of project-2.
