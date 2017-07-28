@@ -18,7 +18,7 @@ if (not DEMO_MODE):
     ###### Get thematics from User ######
 
     thematicsList = []
-    print('Enter thematics you want to identifies : ')
+    print('Enter thematics you want to identify : ')
     print('Enter Q to quit')
     i = 0
     while True:
@@ -31,7 +31,7 @@ if (not DEMO_MODE):
     if (len(thematicsList) < 2):
         print("You must specify at least 2 themes")
         sys.exit()
-        
+
 ### SANITIZE
 if (os.path.isdir("tmp")):
     shutil.rmtree('tmp')
@@ -44,12 +44,11 @@ def copyfiles():
     if ('file' in path):
         for file in files:
             full_file_name = os.path.join(root, file)
-            #print(full_file_name)
             if (os.path.isfile(full_file_name)):
-                if (not os.path.isdir("tmp/"+os.path.basename(root))):
-                    os.makedirs("tmp/"+os.path.basename(root))
+                if (not os.path.isdir("tmp/" + os.path.basename(root))):
+                    os.makedirs("tmp/" + os.path.basename(root))
                 try:
-                    shutil.copy(full_file_name, "tmp/"+os.path.basename(root))
+                    shutil.copy(full_file_name, "tmp/" + os.path.basename(root))
                 except:
                     continue
 
@@ -57,24 +56,26 @@ if (DEMO_MODE):
     copyfiles()
 else:
     for elt in thematicsList:
-        os.makedirs('tmp/'+elt+'/')
+        os.makedirs('tmp/' + elt + '/')
+    os.makedirs('tmp/submit/')
     print() # Graphic separators
     print('Please move files in the temporary directories created')
-    print('Example : Place file '+thematicsList[0]+'.txt in tmp/'+thematicsList[0]+'/')
-    input("Press Enter When done ...")
-    
+    print('The submit directory is a special directory for the files you want to classify')
+    print('Example : Place file ' + thematicsList[0] + '.txt in tmp/' + thematicsList[0] + '/')
+    input('Press Enter When done ...')
+
 def getThemes():
     tmp = []
-    for root, dirs, files in os.walk("."):
+    for root, dirs, files in os.walk('.'):
       path = root.split(os.sep)
-      if ('tmp' in path and os.path.basename(root) != 'tmp' and "submit" not in path):
+      if ('tmp' in path and os.path.basename(root) != 'tmp' and 'submit' not in path):
           tmp.append(os.path.basename(root))
     return tmp
 
 if (DEMO_MODE):
     print('Theme choosed for you :')
 else:
-    print('You choosed the following themes :')
+    print('You chose the following themes :')
 thematicsList = getThemes()
 
 i = 0
@@ -84,7 +85,7 @@ for index, elt in enumerate(thematicsList):
 ### Extracting n-grams
 print()
 print()
-print('#####  Extracting n-gramms #######')
+print('##### Extracting n-gramms #######')
 print()
 print()
 
@@ -92,7 +93,7 @@ def getFilesPath(theme):
     tmp = []
     for root, dirs, files in os.walk("."):
       path = root.split(os.sep)
-      if (theme in path and "tmp" in path):
+      if (theme in path and 'tmp' in path):
           for file in files:
             full_file_name = os.path.join(root, file)
             tmp.append(full_file_name)
@@ -101,8 +102,8 @@ def getFilesPath(theme):
 def ngrams(input, n):
   input = input.split(' ')
   output = []
-  for i in range(len(input)-n+1):
-    output.append(input[i:i+n])
+  for i in range(len(input) - n + 1):
+    output.append(input[i:i + n])
   return output
 
 def replace_all(text):
@@ -113,7 +114,6 @@ def replace_all(text):
     text = ' '.join(text.split())
     return text
 
-
 ngramList = []
 for index, elt in enumerate(thematicsList):
     print('#' + str(index) + '| analyse ' + elt)
@@ -121,7 +121,7 @@ for index, elt in enumerate(thematicsList):
     grams = {}
     for f in files:
         with open(f, 'r', encoding='utf-8', errors='ignore') as myfile:
-            data=myfile.read().strip()
+            data = myfile.read().strip()
             data = replace_all(data)
             for r in range(MIN_NGRAM, MAX_NGRAM):
                 ngs = ngrams(data, r)
@@ -131,10 +131,6 @@ for index, elt in enumerate(thematicsList):
                     grams[g] += 1
     ngramList.append(grams)
 
-#print()
-#print("--- report ---")
-#print()
-
 def getReport(dico):
     tmp = {}
     for key, value in dico.items():
@@ -142,14 +138,10 @@ def getReport(dico):
         tmp[value] += 1
     print(tmp)
 
-#for index, elt in enumerate(thematicsList):
-    #getReport(ngramList[index])
-    #print('#' + str(index) + '| have ' + str(len(ngramList[index])))
-
 def jaccard_similarity(set1, set2):
     intersection_cardinality = len(set.intersection(*[set1, set2]))
     union_cardinality = len(set.union(*[set1, set2]))
-    return ((intersection_cardinality/float(union_cardinality))*100)
+    return ((intersection_cardinality / float(union_cardinality)) * 100)
 
 def loadSetByFile(file):
     with open(file) as f:
@@ -165,7 +157,7 @@ def dictToSet(dico, name, path, submitText):
     sorted_x.reverse()
     print('-------------' + name + '-------------')
     for i in range(0, min(20, len(sorted_x))):
-        isCoherent = True if input("Is revelant for "+ name + " y/n ? -> : " + str(sorted_x[i])) == 'y' else False
+        isCoherent = True if input("Is revelant for " + name + " y/n ? -> : " + str(sorted_x[i])) == 'y' else False
         if (isCoherent):
             mySet.add(sorted_x[i][0])
     if (not submitText and not os.path.isfile(os.path.join(os.path.dirname(path), "_demo_ngrams.txt"))):
@@ -176,7 +168,7 @@ def dictToSet(dico, name, path, submitText):
 
 ngramSetsList = []
 for i, elt in enumerate(ngramList):
-    ngramSetsList.append(dictToSet(elt, getFilesPath(thematicsList[i])[0], getFilesPath(thematicsList[i])[0],False))
+    ngramSetsList.append(dictToSet(elt, getFilesPath(thematicsList[i])[0], getFilesPath(thematicsList[i])[0], False))
 
 print('#########' + str(index) + '| analyse submited Texts')
 submitedTextNGrams = []
@@ -195,7 +187,6 @@ for f in files:
                     grams.setdefault(g, 0)
                     grams[g] += 1
     submitedTextNGrams.append(dictToSet(grams, os.path.basename(f), '', True))
-    #getReport(grams)
 
 print("###############    CONCLUSION    ###############")
 for i, elt in enumerate(submitedTextNGrams):
@@ -209,5 +200,3 @@ for i, elt in enumerate(submitedTextNGrams):
         print("#   -> " + submitedTextNames[i] + " over " + thematicsList[j] + " = " + str(percent) + " %")
     print("### BILAN  ### -> " + submitedTextNames[i] + " belongs to " + (" NO ONE " if index == -1 else thematicsList[index]) + " with " + str(maxVal) + "%")
 print("##################################################")
-
-        
