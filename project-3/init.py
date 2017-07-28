@@ -167,6 +167,11 @@ def dictToSet(dico, name, path, submitText):
     return mySet;
 
 ngramSetsList = []
+for i, elt in enumerate(thematicsList):
+    if len(os.listdir('tmp/' + elt)) <= 0:
+        print('Directories cannot be empty')
+        sys.exit(1)
+
 for i, elt in enumerate(ngramList):
     ngramSetsList.append(dictToSet(elt, getFilesPath(thematicsList[i])[0], getFilesPath(thematicsList[i])[0], False))
 
